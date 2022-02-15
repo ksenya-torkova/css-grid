@@ -1,0 +1,38 @@
+.furly-nav {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  column-gap: 50px;
+  place-items: center;
+}
+
+.furly-nav__menu {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  font-weight: 500;
+}
+
+.furly-nav__links {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 25px;
+}
+
+.furly-nav__link {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+
+  &--entry {
+    background-image: url("../../img/icons/furly_entry.svg");
+  }
+
+  &--favorite {
+    background-image: url("../../img/icons/furly_heart.svg");
+  }
+
+  &--cart {
+    background-image: url("../../img/icons/furly_cart.svg");
+  }
+}

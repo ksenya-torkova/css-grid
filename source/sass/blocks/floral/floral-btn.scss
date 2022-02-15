@@ -1,0 +1,16 @@
+.floral-btn {
+  display: inline-block;
+  background-color: #59313b;
+  padding: 12px 55px;
+  color: #fafafa;
+  font-size: 16px;
+  text-align: center;
+
+  &--secondary {
+    background-color: transparent;
+    border: 1px solid #40393b;
+    color: #40393b;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}

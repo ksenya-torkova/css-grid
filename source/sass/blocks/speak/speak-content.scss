@@ -1,0 +1,33 @@
+.speak-content {
+  display: grid;
+  grid-template-rows: 300px auto 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "slider slider slider contacts"
+    "lessons lessons lessons contacts"
+    "video video exercises contacts";
+  gap: 20px;
+}
+
+.speak-content__slider {
+  grid-area: slider;
+}
+
+.speak-content__lessons {
+  grid-area: lessons;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+}
+
+.speak-content__video {
+  grid-area: video;
+}
+
+.speak-content__exercises {
+  grid-area: exercises;
+}
+
+.speak-content__contacts {
+  grid-area: contacts;
+}

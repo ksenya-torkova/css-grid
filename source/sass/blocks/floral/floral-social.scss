@@ -1,0 +1,33 @@
+.floral-social {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 25px;
+}
+
+.floral-social__item {
+  display: block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  &--inst::before {
+    background-image: url("../../img/icons/instagram.svg");
+  }
+
+  &--fb::before {
+    background-image: url("../../img/icons/facebook.svg");
+  }
+
+  &--pint::before {
+    background-image: url("../../img/icons/pinterest.svg");
+  }
+}

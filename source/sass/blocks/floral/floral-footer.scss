@@ -1,0 +1,12 @@
+.floral-footer {
+  display: grid;
+  grid-template-columns: 177px 1fr 177px;
+  column-gap: 50px;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.floral-footer__menu {
+  justify-content: center;
+}

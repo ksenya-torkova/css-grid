@@ -1,0 +1,23 @@
+.furly {
+  background-color: #f7f6f5;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: "Manrope", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #211e1d;
+  min-height: 100vh;
+}
+
+.furly__header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.furly__footer {
+  background-color: #dedbd9;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}

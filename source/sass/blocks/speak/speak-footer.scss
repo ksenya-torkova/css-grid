@@ -1,0 +1,26 @@
+.speak-footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  align-items: center;
+  column-gap: 20px;
+  padding: 20px 30px;
+  color: rgba(#ffffff, 0.5);
+}
+
+.speak-footer__copyright {
+  font-size: 16px;
+  line-height: (20 / 16);
+}
+
+.speak-footer__title {
+  font-size: 16px;
+  line-height: (20 / 16);
+  text-align: center;
+}
+
+.speak-footer__address {
+  font-size: 16px;
+  line-height: (20 / 16);
+  font-style: normal;
+  text-align: right;
+}

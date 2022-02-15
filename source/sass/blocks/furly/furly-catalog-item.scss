@@ -1,0 +1,29 @@
+.furly-catalog-item__image {
+  margin-bottom: 20px;
+}
+
+.furly-catalog-item__info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.furly-catalog-item__title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 10px;
+  max-width: calc(100% - 24px - 24px); // width 24, indent 24
+}
+
+.furly-catalog-item__btn {
+  width: 24px;
+  height: 24px;
+  margin-left: auto;
+  background-image: url("../../img/icons/furly_heart.svg");
+}
+
+.furly-catalog-item__price {
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,39 @@
+.traveler {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #f2f2f2;
+  font-family: "Manrope", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #131313;
+  min-height: 100vh;
+}
+
+.traveler__header {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  margin-bottom: 100px;
+}
+
+.traveler__nav {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 40px;
+}
+
+.traveler__footer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 40px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.traveler__copyright {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: right;
+}

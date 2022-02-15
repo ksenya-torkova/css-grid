@@ -1,0 +1,18 @@
+.performance-nav {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
+}
+
+.performance-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  column-gap: 30px;
+}
+
+.performance-nav__item {
+  padding-bottom: 14px;
+  font-size: 16px;
+  line-height: (24 / 16);
+}

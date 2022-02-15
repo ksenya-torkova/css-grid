@@ -1,0 +1,30 @@
+.furly-form__label {
+  display: block;
+  margin-bottom: 40px;
+}
+
+.furly-form__wrapper {
+  display: flex;
+  border-bottom: 1px solid rgba(#211e1d, 0.1);
+}
+
+.furly-form__input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  padding-left: 0;
+
+  &::placeholder {
+    font: inherit;
+    opacity: 0.3;
+  }
+}
+
+.furly-form__btn {
+  width: 26px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-image: url("../../img/icons/furly_arrow_right.svg");
+}

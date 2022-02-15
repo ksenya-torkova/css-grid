@@ -1,0 +1,36 @@
+.traveler-article {
+  display: grid;
+  grid-template-columns: 536px 536px 248px;
+  grid-template-rows: auto auto 297px auto 644px;
+  column-gap: 40px;
+  row-gap: 50px;
+}
+
+.traveler-article__title {
+  font-size: 48px;
+  line-height: (62 / 48);
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.traveler-article__description {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.traveler-article__text {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.traveler-article__main-photo {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+}
+
+.traveler-article__photo-wide {
+  grid-column: 1 / -1;
+}

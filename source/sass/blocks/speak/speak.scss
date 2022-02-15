@@ -1,0 +1,30 @@
+.speak {
+  display: grid;
+  grid-template-rows: 1fr auto;
+  grid-template-columns: 1fr 4fr;
+  grid-template-areas:
+    "header main"
+    "footer footer";
+  font-family: "Roboto", "Tahoma", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: (20 / 14);
+  color: #3c425f;
+  min-width: 1440px;
+  min-height: 100vh;
+}
+
+.speak__header {
+  grid-area: header;
+  border-right: 1px solid #b4bef0;
+}
+
+.speak__main {
+  grid-area: main;
+}
+
+.speak__footer {
+  grid-area: footer;
+  background-color: #3c425f;
+}

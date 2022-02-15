@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Furly">
+  <link rel="preload" href="../fonts/manrope/manrope-regular.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="../fonts/manrope/manrope-medium.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="../fonts/manrope/manrope-bold.woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.min.css">
+  <title>Кейс 4 "Furly"</title>
+
+</head>
+<body class="furly">
+  <header class="furly__header">
+    <nav class="furly-nav furly-container">
+      <a href="../index.html">
+        <img src="../../img/furly/logo.svg" alt="Логотип сайта Furly" width="90" height="36">
+      </a>
+      <ul class="furly-nav__menu">
+        <li class="furly-nav__item">
+          <a href="#">
+            Новинки
+          </a>
+        </li>
+        <li class="furly-nav__item">
+          <a href="#">
+            Бестселлеры
+          </a>
+        </li>
+        <li class="furly-nav__item">
+          <a href="#">
+            Одежда
+          </a>
+        </li>
+        <li class="furly-nav__item">
+          <a href="#">
+            Обувь
+          </a>
+        </li>
+        <li class="furly-nav__item">
+          <a href="#">
+            Аксессуары
+          </a>
+        </li>
+      </ul>
+      <div class="furly-nav__links">
+        <a href="#" class="furly-nav__link furly-nav__link--entry">
+          <span class="visually-hidden">
+            Войти в аккаунт
+          </span>
+        </a>
+        <a href="#" class="furly-nav__link furly-nav__link--favorite">
+          <span class="visually-hidden">
+            Перейти к избранному
+          </span>
+        </a>
+        <a href="#" class="furly-nav__link furly-nav__link--cart">
+          <span class="visually-hidden">
+            Перейти в корзину
+          </span>
+        </a>
+      </div>
+    </nav>
+  </header>
+  <main class="furly__main furly-container">
+    <section class="furly-catalog">
+      <h1 class="furly-catalog__title">
+        Женская одежда
+      </h1>
+      <div class="furly-catalog__filter">
+        <div class="furly-filter">
+          <h3 class="furly-filter__title">
+            Категория
+          </h3>
+          <select id="category" class="furly-filter__select">
+            <option value="all" class="furly-filter__option">
+              Все
+            </option>
+            <option value="2" class="furly-filter__option">
+              2
+            </option>
+            <option value="3" class="furly-filter__option">
+              3
+            </option>
+          </select>
+        </div>
+        <div class="furly-filter">
+          <h3 class="furly-filter__title">
+            Бренд
+          </h3>
+          <select id="brand" class="furly-filter__select">
+            <option value="all" class="furly-filter__option">
+              Все
+            </option>
+            <option value="2" class="furly-filter__option">
+              2
+            </option>
+            <option value="3" class="furly-filter__option">
+              3
+            </option>
+          </select>
+        </div>
+        <div class="furly-filter">
+          <h3 class="furly-filter__title">
+            Коллекция
+          </h3>
+          <select id="collection" class="furly-filter__select">
+            <option value="all" class="furly-filter__option">
+              Все
+            </option>
+            <option value="2" class="furly-filter__option">
+              2
+            </option>
+            <option value="3" class="furly-filter__option">
+              3
+            </option>
+          </select>
+        </div>
+        <div class="furly-filter">
+          <h3 class="furly-filter__title">
+            Сортировать по:
+          </h3>
+          <select id="sort" class="furly-filter__select">
+            <option value="" class="furly-filter__option">
+              Популярности
+            </option>
+            <option value="2" class="furly-filter__option">
+              2
+            </option>
+            <option value="3" class="furly-filter__option">
+              3
+            </option>
+          </select>
+        </div>
+      </div>
+      <ul class="furly-catalog__list">
+        <li class="furly-catalog-item">
+          <img src="../../img/furly/photo_01.jpg" alt="Фото одежды на модели" class="furly-catalog-item__image" loading="lazy" width="320" height="408">
+          <div class="furly-catalog-item__info">
+            <h2 class="furly-catalog-item__title">
+              <a href="#">
+                Платье Spring
+              </a>
+            </h2>
+            <button class="btn-reset furly-catalog-item__btn" type="button">
+              <span class="visually-hidden">
+                Добавить в избранное
+              </span>
+            </button>
+            <p class="furly-catalog-item__price">
+              4 500 ₽
+            </p>
+          </div>
+        </li>
+        <li class="furly-catalog-item">
+          <img src="../../img/furly/photo_02.jpg" alt="Фото одежды на модели" class="furly-catalog-item__image" loading="lazy" width="320" height="408">
+          <div class="furly-catalog-item__info">
+            <h2 class="furly-catalog-item__title">
+              <a href="#">
+                Костюм Beige
+              </a>
+            </h2>
+            <button class="btn-reset furly-catalog-item__btn" type="button">
+              <span class="visually-hidden">
+                Добавить в избранное
+              </span>
+            </button>
+            <p class="furly-catalog-item__price">
+              8 500 ₽
+            </p>
+          </div>
+        </li>
+        <li class="furly-catalog-item">
+          <img src="../../img/furly/photo_03.jpg" alt="Фото одежды на модели" class="furly-catalog-item__image" loading="lazy" width="320" height="408">
+          <div class="furly-catalog-item__info">
+            <h2 class="furly-catalog-item__title">
+              <a href="#">
+                Джинсовое платье Pink
+              </a>
+            </h2>
+            <button class="btn-reset furly-catalog-item__btn" type="button">
+              <span class="visually-hidden">
+                Добавить в избранное
+              </span>
+            </button>
+            <p class="furly-catalog-item__price">
+              6 500 ₽
+            </p>
+          </div>
+        </li>
+        <li class="furly-catalog-item">
+          <img src="../../img/furly/photo_04.jpg" alt="Фото одежды на модели" class="furly-catalog-item__image" loading="lazy" width="320" height="408">
+          <div class="furly-catalog-item__info">
+            <h2 class="furly-catalog-item__title">
+              <a href="#">
+                Худи Beige
+              </a>
+            </h2>
+            <button class="btn-reset furly-catalog-item__btn" type="button">
+              <span class="visually-hidden">
+                Добавить в избранное
+              </span>
+            </button>
+            <p class="furly-catalog-item__price">
+              3 500 ₽
+            </p>
+          </div>
+        </li>
+        <li class="furly-catalog-item">
+          <img src="../../img/furly/photo_05.jpg" alt="Фото одежды на модели" class="furly-catalog-item__image" loading="lazy" width="320" height="408">
+          <div class="furly-catalog-item__info">
+            <h2 class="furly-catalog-item__title">
+              <a href="#">
+                Худи Sand
+              </a>
+            </h2>
+            <button class="btn-reset furly-catalog-item__btn" type="button">
+              <span class="visually-hidden">
+                Добавить в избранное
+              </span>
+            </button>
+            <p class="furly-catalog-item__price">
+              3 500 ₽
+            </p>
+          </div>
+        </li>
+        <li class="furly-catalog-item">
+          <img src="../../img/furly/photo_06.jpg" alt="Фото одежды на модели" class="furly-catalog-item__image" loading="lazy" width="320" height="408">
+          <div class="furly-catalog-item__info">
+            <h2 class="furly-catalog-item__title">
+              <a href="#">
+                Платье-комбинация Black
+              </a>
+            </h2>
+            <button class="btn-reset furly-catalog-item__btn" type="button">
+              <span class="visually-hidden">
+                Добавить в избранное
+              </span>
+            </button>
+            <p class="furly-catalog-item__price">
+              6 500 ₽
+            </p>
+          </div>
+        </li>
+        <li class="furly-catalog-item">
+          <img src="../../img/furly/photo_07.jpg" alt="Фото одежды на модели" class="furly-catalog-item__image" loading="lazy" width="320" height="408">
+          <div class="furly-catalog-item__info">
+            <h2 class="furly-catalog-item__title">
+              <a href="#">
+                Тренч Sad Autumn
+              </a>
+            </h2>
+            <button class="btn-reset furly-catalog-item__btn" type="button">
+              <span class="visually-hidden">
+                Добавить в избранное
+              </span>
+            </button>
+            <p class="furly-catalog-item__price">
+              12 000 ₽
+            </p>
+          </div>
+        </li>
+        <li class="furly-catalog-item">
+          <img src="../../img/furly/photo_08.jpg" alt="Фото одежды на модели" class="furly-catalog-item__image" loading="lazy" width="320" height="408">
+          <div class="furly-catalog-item__info">
+            <h2 class="furly-catalog-item__title">
+              <a href="#">
+                Костюм Grey
+              </a>
+            </h2>
+            <button class="btn-reset furly-catalog-item__btn" type="button">
+              <span class="visually-hidden">
+                Добавить в избранное
+              </span>
+            </button>
+            <p class="furly-catalog-item__price">
+              8 500 ₽
+            </p>
+          </div>
+        </li>
+        <li class="furly-catalog-item">
+          <img src="../../img/furly/photo_09.jpg" alt="Фото одежды на модели" class="furly-catalog-item__image" loading="lazy" width="320" height="408">
+          <div class="furly-catalog-item__info">
+            <h2 class="furly-catalog-item__title">
+              <a href="#">
+                Платье Ornament
+              </a>
+            </h2>
+            <button class="btn-reset furly-catalog-item__btn" type="button">
+              <span class="visually-hidden">
+                Добавить в избранное
+              </span>
+            </button>
+            <p class="furly-catalog-item__price">
+              4 500 ₽
+            </p>
+          </div>
+        </li>
+        <li class="furly-catalog-item">
+          <img src="../../img/furly/photo_10.jpg" alt="Фото одежды на модели" class="furly-catalog-item__image" loading="lazy" width="320" height="408">
+          <div class="furly-catalog-item__info">
+            <h2 class="furly-catalog-item__title">
+              <a href="#">
+                Пальто Thunder
+              </a>
+            </h2>
+            <button class="btn-reset furly-catalog-item__btn" type="button">
+              <span class="visually-hidden">
+                Добавить в избранное
+              </span>
+            </button>
+            <p class="furly-catalog-item__price">
+              10 000 ₽
+            </p>
+          </div>
+        </li>
+        <li class="furly-catalog-item">
+          <img src="../../img/furly/photo_11.jpg" alt="Фото одежды на модели" class="furly-catalog-item__image" loading="lazy" width="320" height="408">
+          <div class="furly-catalog-item__info">
+            <h2 class="furly-catalog-item__title">
+              <a href="#">
+                Пиджак Duon
+              </a>
+            </h2>
+            <button class="btn-reset furly-catalog-item__btn" type="button">
+              <span class="visually-hidden">
+                Добавить в избранное
+              </span>
+            </button>
+            <p class="furly-catalog-item__price">
+              7 500 ₽
+            </p>
+          </div>
+        </li>
+        <li class="furly-catalog-item">
+          <img src="../../img/furly/photo_12.jpg" alt="Фото одежды на модели" class="furly-catalog-item__image" loading="lazy" width="320" height="408">
+          <div class="furly-catalog-item__info">
+            <h2 class="furly-catalog-item__title">
+              <a href="#">
+                Пальто Flax
+              </a>
+            </h2>
+            <button class="btn-reset furly-catalog-item__btn" type="button">
+              <span class="visually-hidden">
+                Добавить в избранное
+              </span>
+            </button>
+            <p class="furly-catalog-item__price">
+              13 500 ₽
+            </p>
+          </div>
+        </li>
+      </ul>
+      <a href="#" class="furly-catalog__more">
+        Загрузить еще
+      </a>
+    </section>
+  </main>
+  <footer class="furly__footer">
+    <div class="furly-container furly-footer">
+      <div class="furly-footer__info">
+        <a href="../index.html">
+          <img src="../../img/furly/logo.svg" alt="Логотип сайта Furly" width="90" height="36">
+        </a>
+        <p class="furly-footer__copyright">
+          Furly © 2021 Все права защищены
+        </p>
+        <a href="#" class="furly-footer__link furly-footer__link--small">
+          Политика конфиденциальности
+        </a>
+      </div>
+      <div class="furly-footer__contacts">
+        <a href="tel:5349585555" class="furly-footer__link">
+          534-958-5555
+        </a>
+        <a href="mailto:info@furly.com" class="furly-footer__link">
+          info@furly.com
+        </a>
+        <ul class="furly-footer__social furly-social">
+          <li class="furly-social__item">
+            <a href="#" class="furly-social__link furly-social__link--fb">
+              <span class="visually-hidden">
+                Мы на Фейсбуке
+              </span>
+            </a>
+          </li>
+          <li class="furly-social__item">
+            <a href="#" class="furly-social__link furly-social__link--tw">
+              <span class="visually-hidden">
+                Мы в Твиттере
+              </span>
+            </a>
+          </li>
+          <li class="furly-social__item">
+            <a href="#" class="furly-social__link furly-social__link--inst">
+              <span class="visually-hidden">
+                Наша страница в инстаграм
+              </span>
+            </a>
+          </li>
+          <li class="furly-social__item">
+            <a href="#" class="furly-social__link furly-social__link--pint">
+              <span class="visually-hidden">
+                Наша страница в Пинтерест
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="furly-footer__links">
+        <a href="#" class="furly-footer__link">
+          Оплата и доставка
+        </a>
+        <a href="#" class="furly-footer__link">
+          Возврат
+        </a>
+        <a href="#" class="furly-footer__link">
+          Отследить заказ
+        </a>
+      </div>
+      <div class="furly-footer__subscribe">
+        <form class="furly-footer__form furly-form">
+          <label for="subscribe-form" class="furly-form__label">
+            Подпишитесь на нашу рассылку
+          </label>
+          <div class="furly-form__wrapper">
+            <input type="text" class="furly-form__input" id="subscribe-form" placeholder="example@email.com">
+            <button type="submit" class="furly-form__btn btn-reset">
+              <span class="visually-hidden">
+                Отправить форму
+              </span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </footer>
+</body>

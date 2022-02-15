@@ -1,0 +1,31 @@
+.home-footer {
+  background-color: #f2f8fb;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.home-footer__wrapper {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 1;
+  align-items: center;
+}
+
+.home-footer__address {
+  font-style: normal;
+  line-height: (20 / 16);
+  color: rgba(#333333, 0.5);
+}
+
+.home-footer__text-item {
+  color: #06a9b3;
+}
+
+.home-footer__logo {
+  grid-column: 1 / 4;
+}
+
+.home-footer__address {
+  grid-column: 9 / 13;
+  text-align: right;
+}

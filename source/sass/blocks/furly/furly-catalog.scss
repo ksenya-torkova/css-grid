@@ -1,0 +1,34 @@
+.furly-catalog {
+  display: grid;
+  justify-items: center;
+}
+
+.furly-catalog__title {
+  justify-self: start;
+  margin-top: 0;
+  margin-bottom: 70px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.furly-catalog__filter {
+  display: grid;
+  grid-template-columns: repeat(4, 320px);
+  column-gap: 20px;
+  margin-bottom: 60px;
+}
+
+.furly-catalog__list {
+  display: grid;
+  grid-template-columns: repeat(4, 320px);
+  column-gap: 20px;
+  row-gap: 50px;
+  margin-bottom: 80px;
+}
+
+.furly-catalog__more {
+  padding: 28px 105px;
+  margin-bottom: 100px;
+  font-weight: 500;
+  border: 1px solid #211e1d;
+}

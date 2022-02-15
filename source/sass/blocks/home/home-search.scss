@@ -1,0 +1,11 @@
+.home-search {
+  grid-column: 10 / 11;
+  justify-self: end;
+  display: inline-block;
+  width: 32px;
+  height: 20px;
+  background-image: url("../../img/icons/home-search.svg");
+  background-repeat: no-repeat;
+  background-size: 16px 16px;
+  background-position: center center;
+}

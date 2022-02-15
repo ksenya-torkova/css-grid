@@ -1,0 +1,23 @@
+.speak-main {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "search"
+    "content";
+}
+
+.speak-main__row {
+  grid-area: search;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 40px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #b4bef0;
+  padding: 20px 30px;
+}
+
+.speak-main__content {
+  grid-area: content;
+  padding: 30px;
+  background-color: #f1f3fe;
+}

@@ -1,0 +1,60 @@
+.speak-profile {
+  display: flex;
+  align-items: center;
+}
+
+.speak-profile__photo {
+  margin-right: 12px;
+}
+
+.speak-profile__link {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.speak-profile__btn {
+  width: 32px;
+  height: 26px;
+  background-image: url("../../img/icons/speak-arrow-down.svg");
+  background-repeat: no-repeat;
+  background-size: 12px 6px;
+  background-position: center center;
+  margin-right: 50px;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 40px;
+    top: -7px;
+    right: -20px;
+    background-color: #e4e8fc;
+  }
+}
+
+.speak-profile__notification {
+  width: 18px;
+  height: 20px;
+  background-image: url("../../img/icons/speak-bell.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: attr(data-notification-amount);
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #ff8f0b;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 900;
+    top: -9px;
+    right: -7px;
+    border: 2px solid #ffffff;
+  }
+}

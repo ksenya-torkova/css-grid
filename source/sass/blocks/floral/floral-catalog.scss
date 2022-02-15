@@ -1,0 +1,41 @@
+.floral-catalog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.floral-catalog__title {
+  margin-top: 0;
+  margin-bottom: 50px;
+  padding: 136px 110px;
+  font-family: "Merriweather", "Times New Roman", serif;
+  font-size: 62px;
+  font-weight: 300;
+  color: #59313b;
+  min-height: 350px;
+  background-image: image-set("../../img/floral/catalog_bg_1x.jpg" 1x, "../../img/floral/catalog_bg_2x.jpg" 2x);
+  background-repeat: no-repeat;
+  background-size: cover;
+  grid-column: 1 / -1;
+}
+
+.floral-catalog__filter {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  grid-column: 1 / -1;
+}
+
+.floral-catalog__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  grid-column: 1 / -1;
+  margin-bottom: 70px;
+}
+
+.floral-catalog__more {
+  grid-column: 2 / 3;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 80px;
+}

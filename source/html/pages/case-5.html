@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Let's Speak">
+  <link rel="preload" href="../fonts/roboto/roboto-light.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="../fonts/roboto/roboto-medium.woff2" as="font" crossorigin="anonymous">
+  <link rel="preload" href="../fonts/roboto/roboto-black.woff2" as="font" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.min.css">
+  <title>Кейс 5 "Let's Speak"</title>
+
+</head>
+
+<body class="speak">
+  <h1 class="visually-hidden">
+    Языковая школа
+    <span lang="en">
+      "Let’s Speak"
+    </span>
+    , кабинет ученика
+  </h1>
+  <header class="speak__header">
+    <nav class="speak-nav">
+      <a href="../index.html">
+        <img src="../../img/speak/logo.svg" alt="Логотип сайта Let's Speak" width="162" height="36" class="speak-nav__logo">
+      </a>
+      <ul class="speak-nav__menu">
+        <li class="speak-nav__item speak-nav__item--current">
+          <a href="#" class="speak-nav__link speak-nav__link--cabinet" aria-current="page">
+            Кабинет ученика
+          </a>
+        </li>
+        <li class="speak-nav__item">
+          <a href="#" class="speak-nav__link speak-nav__link--class">
+            Учебный класс
+          </a>
+        </li>
+        <li class="speak-nav__item">
+          <a href="#" class="speak-nav__link speak-nav__link--handbook">
+            Методичка
+          </a>
+        </li>
+        <li class="speak-nav__item">
+          <a href="#" class="speak-nav__link speak-nav__link--homework">
+            Домашняя работа
+          </a>
+        </li>
+        <li class="speak-nav__item">
+          <a href="#" class="speak-nav__link speak-nav__link--exams">
+            Экзамены
+          </a>
+        </li>
+      </ul>
+      <a href="#" class="speak-nav__settings">
+        Настройки
+      </a>
+    </nav>
+  </header>
+  <main class="speak__main speak-main">
+    <div class="speak-main__row">
+      <form class="speak-search">
+        <h3 class="visually-hidden">
+          Поиск по сайту
+        </h3>
+        <input type="text" class="speak-search__input" placeholder="Поиск...">
+        <button class="visually-hidden" type="submit">
+          Начать поиск
+        </button>
+      </form>
+      <section class="speak-profile">
+        <h2 class="visually-hidden">
+          Мой аккаунт
+        </h2>
+        <img src="../../img/speak/avatar-01.png" alt="Аватар пользователя" class="speak-profile__photo" width="40" height="40">
+        <a href="#" class="speak-profile__link">
+          Опознанный Енот
+        </a>
+        <button class="speak-profile__btn btn-reset">
+          <span class="visually-hidden">
+            Открыть меню моего аккаунта
+          </span>
+        </button>
+        <a href="#" class="speak-profile__notification" data-notification-amount="1">
+          <span class="visually-hidden">
+            У вас одно новое уведомление
+          </span>
+        </a>
+      </section>
+    </div>
+    <div class="speak-main__content speak-content">
+      <section class="speak-content__slider speak-slider">
+        <h3 class="visually-hidden">
+          Последние публикации на сайте
+        </h3>
+        <div class="speak-slider__slide speak-slider__slide--accent">
+          <h4 class="speak-slider__subtitle mt-0">
+            «Бифитер», «Кокни», «Даблдекер»...
+          </h4>
+          <p class="speak-slider__text mt-0">
+            Пройдите тест и узнайте насколько хорошо вы знакомы с&nbsp;жизнью в Лондоне
+          </p>
+          <a href="#" class="speak-slider__btn btn-reset">
+            Пройти тест ➞
+          </a>
+        </div>
+      </section>
+      <ul class="speak-content__lessons">
+        <li class="speak-lesson">
+          <h3 class="speak-lesson__title mt-0">
+            Английский завтрак
+          </h3>
+          <p class="speak-lesson__type mt-0">
+            Разговорный клуб
+          </p>
+          <p class="speak-lesson__time mt-0">
+            10:00 — 11:00 (ПН—ПТ)
+          </p>
+          <a href="#" class="speak-lesson__link">
+            Записаться ➞
+          </a>
+        </li>
+        <li class="speak-lesson">
+          <h3 class="speak-lesson__title mt-0">
+            Лето в Лондоне
+          </h3>
+          <p class="speak-lesson__type mt-0">
+            Месяц экскурсий и практики
+          </p>
+          <p class="speak-lesson__time mt-0">
+            10 июня — 3 июля
+          </p>
+          <a href="#" class="speak-lesson__link">
+            Отправиться ➞
+          </a>
+        </li>
+        <li class="speak-lesson">
+          <h3 class="speak-lesson__title mt-0">
+            Надоел английский?
+          </h3>
+          <p class="speak-lesson__type mt-0">
+            С нами можно выучить и другие языки
+          </p>
+          <a href="#" class="speak-lesson__link">
+            Открыть список ➞
+          </a>
+        </li>
+      </ul>
+      <section class="speak-content__video speak-video">
+        <video class="speak-video__content" poster="../../img/speak/poster-01.png" width="540" height="300">
+          <source src="video.mp4" type="video/mp4">
+          Ваш браузер не поддерживает html5-видео
+        </video>
+      </section>
+      <section class="speak-content__exercises speak-exercises">
+        <h2 class="speak-exercises__title mt-0 mb-0">
+          Курс English A1
+        </h2>
+        <ul class="speak-exercises__list">
+          <li class="speak-exercises__item speak-exercises__item--watched">
+            <button class="speak-exercises__btn btn-reset" type="button">
+              <span class="visually-hidden">
+                Включить запись урока
+              </span>
+            </button>
+            <h3 class="speak-exercises__subtitle mt-0 mb-0">
+              Времена глаголов
+            </h3>
+            <p class="speak-exercises__number mt-0 mb-0">
+              Урок 8
+            </p>
+          </li>
+          <li class="speak-exercises__item" aria-current="step">
+            <button class="speak-exercises__btn btn-reset" type="button">
+              <span class="visually-hidden">
+                Включить запись урока
+              </span>
+            </button>
+            <h3 class="speak-exercises__subtitle mt-0 mb-0">
+              Неправильные глаголы
+            </h3>
+            <p class="speak-exercises__number mt-0 mb-0">
+              Урок 9
+            </p>
+          </li>
+          <li class="speak-exercises__item speak-exercises__item--not-watched">
+            <button class="speak-exercises__btn btn-reset" type="button">
+              <span class="visually-hidden">
+                Включить запись урока
+              </span>
+            </button>
+            <h3 class="speak-exercises__subtitle mt-0 mb-0">
+              Present Simple
+            </h3>
+            <p class="speak-exercises__number mt-0 mb-0">
+              Урок 10
+            </p>
+          </li>
+          <li class="speak-exercises__item speak-exercises__item--not-watched">
+            <button class="speak-exercises__btn btn-reset" type="button">
+              <span class="visually-hidden">
+                Включить запись урока
+              </span>
+            </button>
+            <h3 class="speak-exercises__subtitle mt-0 mb-0">
+              Past Simple
+            </h3>
+            <p class="speak-exercises__number mt-0 mb-0">
+              Урок 11
+            </p>
+          </li>
+          <li class="speak-exercises__item speak-exercises__item--not-watched">
+            <button class="speak-exercises__btn btn-reset" type="button">
+              <span class="visually-hidden">
+                Включить запись урока
+              </span>
+            </button>
+            <h3 class="speak-exercises__subtitle mt-0 mb-0">
+              Present Continuous
+            </h3>
+            <p class="speak-exercises__number mt-0 mb-0">
+              Урок 12
+            </p>
+          </li>
+        </ul>
+      </section>
+      <aside class="speak-content__contacts speak-contacts">
+        <h3 class="speak-contacts__title mt-0">
+          Контакты
+        </h3>
+        <ul class="speak-contacts__list">
+          <li class="speak-contacts__item" data-new-notification="true">
+            <a href="#" class="speak-contacts__link">
+              <p class="speak-contacts__name mt-0 mb-0">
+                Неопознанный Енот
+              </p>
+              <p class="speak-contacts__type mt-0 mb-0">
+                English A1
+              </p>
+              <span class="visually-hidden">
+                Новое уведомление от этого контакта
+              </span>
+              <img src="../../img/speak/avatar-02.png" alt="Аватар пользователя" class="speak-contacts__avatar">
+            </a>
+          </li>
+          <li class="speak-contacts__item" data-new-notification="true">
+            <a href="#" class="speak-contacts__link">
+              <p class="speak-contacts__name mt-0 mb-0">
+                Неопознанный Енот 2
+              </p>
+              <p class="speak-contacts__type mt-0 mb-0">
+                Español 2
+              </p>
+              <span class="visually-hidden">
+                Новое уведомление от этого контакта
+              </span>
+              <img src="../../img/speak/avatar-02.png" alt="Аватар пользователя" class="speak-contacts__avatar">
+            </a>
+          </li>
+          <li class="speak-contacts__item" data-new-notification="true">
+            <a href="#" class="speak-contacts__link">
+              <p class="speak-contacts__name mt-0 mb-0">
+                Неопознанный Енот 3
+              </p>
+              <p class="speak-contacts__type mt-0 mb-0">
+                日本語
+              </p>
+              <span class="visually-hidden">
+                Новое уведомление от этого контакта
+              </span>
+              <img src="../../img/speak/avatar-02.png" alt="Аватар пользователя" class="speak-contacts__avatar">
+            </a>
+          </li>
+          <li class="speak-contacts__item" data-new-notification="true">
+            <a href="#" class="speak-contacts__link">
+              <p class="speak-contacts__name mt-0 mb-0">
+                Неопознанный Енот 4
+              </p>
+              <p class="speak-contacts__type mt-0 mb-0">
+                English B2
+              </p>
+              <span class="visually-hidden">
+                Новое уведомление от этого контакта
+              </span>
+              <img src="../../img/speak/avatar-02.png" alt="Аватар пользователя" class="speak-contacts__avatar">
+            </a>
+          </li>
+          <li class="speak-contacts__item">
+            <a href="#" class="speak-contacts__link">
+              <p class="speak-contacts__name mt-0 mb-0">
+                Неопознанный Енот 5
+              </p>
+              <p class="speak-contacts__type mt-0 mb-0">
+                Le Français
+              </p>
+              <img src="../../img/speak/avatar-02.png" alt="Аватар пользователя" class="speak-contacts__avatar">
+            </a>
+          </li>
+          <li class="speak-contacts__item">
+            <a href="#" class="speak-contacts__link">
+              <p class="speak-contacts__name mt-0 mb-0">
+                Неопознанный Енот 6
+              </p>
+              <p class="speak-contacts__type mt-0 mb-0">
+                Español 1
+              </p>
+              <img src="../../img/speak/avatar-02.png" alt="Аватар пользователя" class="speak-contacts__avatar">
+            </a>
+          </li>
+          <li class="speak-contacts__item">
+            <a href="#" class="speak-contacts__link">
+              <p class="speak-contacts__name mt-0 mb-0">
+                Неопознанный Енот 7
+              </p>
+              <p class="speak-contacts__type mt-0 mb-0">
+                Italiano
+              </p>
+              <img src="../../img/speak/avatar-02.png" alt="Аватар пользователя" class="speak-contacts__avatar">
+            </a>
+          </li>
+        </ul>
+      </aside>
+    </div>
+  </main>
+  <footer class="speak__footer speak-footer">
+    <p class="speak-footer__copyright mt-0 mb-0">
+      © 2022
+    </p>
+    <p class="speak-footer__title mt-0 mb-0">
+      <span class="fw-500" lang="en">
+        Let’s Speak,
+      </span>
+      языковая школа
+    </p>
+    <address class="speak-footer__address">
+      Сайт разработан в
+      <span class="fw-500" lang="en">
+        RubyGarage
+      </span>
+      по макетам
+      <span class="fw-500" lang="en">
+        HTML Academy
+      </span>
+    </address>
+  </footer>
+</body>

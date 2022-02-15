@@ -1,0 +1,24 @@
+.furly-footer {
+  display: grid;
+  grid-template-columns: 221px 134px 141px 350px;
+  column-gap: 165px;
+}
+
+.furly-footer__copyright {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.furly-footer__link {
+  display: block;
+  margin-bottom: 21px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &--small {
+    font-size: 14px;
+  }
+}

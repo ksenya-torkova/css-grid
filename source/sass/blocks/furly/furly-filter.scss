@@ -1,0 +1,25 @@
+.furly-filter {
+  border-bottom: 1px solid rgba(#211e1d, 0.3);
+}
+
+.furly-filter__title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.furly-filter__select {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 12px 8px;
+  background-image: url("../../img/icons/furly_arrow_down.svg");
+  font: inherit;
+  color: rgba(#211e1d, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

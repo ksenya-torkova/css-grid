@@ -1,0 +1,39 @@
+.floral {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #f2f1f0;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.25;
+  color: #40393b;
+  min-height: 100vh;
+}
+
+.floral__header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 100px;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.floral__nav {
+  display: grid;
+  grid-template-columns: 177px 1fr;
+  column-gap: 100px;
+  align-items: center;
+}
+
+.floral__links {
+  display: grid;
+  grid-template-columns: auto 24px;
+  column-gap: 55px;
+  align-items: center;
+}
+
+.floral__footer {
+  background-color: #ded9d5;
+}

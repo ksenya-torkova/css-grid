@@ -1,0 +1,12 @@
+.performance-footer__wrapper {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
+}
+
+.performance-footer__copyright {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+  text-align: right;
+}

@@ -1,0 +1,21 @@
+.home {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333333;
+  min-height: 100vh;
+}
+
+.home-header__menu {
+  grid-column: 1 / 6;
+}
+
+.home-footer__menu {
+  grid-column: 4 / 9;
+  justify-self: center;
+}
